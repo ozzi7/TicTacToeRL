@@ -29,7 +29,7 @@ namespace TicTacToeRL
 
             int statePrime = 0;
             float alpha = 0.9f; /* Learning rate */
-            float gamma = 1.0f; /* Discount rate */
+            float gamma = 0.9f; /* Discount rate */
             float epsilon = 0.8f; /* Probability for random move -> "exploration rate" */
 
             for (int i = 0; true; ++i)
